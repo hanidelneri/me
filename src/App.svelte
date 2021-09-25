@@ -60,7 +60,7 @@
   {#each counts as counts}
     {#each skills as skill, index}
       <div
-        class="animate__animated animate__flash animate__infinite animate__delay-{getDelay()} animate__{getSpeed()} {getSize()} margin-x-{getSize()} margin-y-{getSize()} align-{getAlignment()} font-bold"
+        class="skill  speed-{getSpeed()} {getSize()} margin-x-{getSize()} margin-y-{getSize()} align-{getAlignment()} font-bold"
       >
         {skill}
       </div>
@@ -94,6 +94,39 @@
     padding: 8px;
     color: white;
     top: 30%;
+  }
+
+  .skill {
+    animation-name: flash;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+  }
+
+  .speed-slow {
+    animation-duration: 4s;
+  }
+  .speed-slower {
+    animation-duration: 8s;
+  }
+  .speed-fast {
+    animation-duration: 2;
+  }
+  .speed-faster {
+    animation-duration: 1;
+  }
+
+  @keyframes flash {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+
+    25%,
+    75% {
+      opacity: 0;
+    }
   }
 
   .introduction img {
