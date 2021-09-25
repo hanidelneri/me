@@ -69,10 +69,22 @@
   <section class="introduction">
     <h1 class="">Hi! I'm Hanie. <br />A UI Engineer.</h1>
     <div>
-      <img src="/github.svg" alt="github" />
-      <img src="/linkedin.svg" alt="linkedin" />
-      <img src="/mail.svg" alt="mail" />
-      <img src="/cv.svg" alt="cv" />
+      <a href="https://github.com/hanidelneri?tab=repositories" target="blank">
+        <img src="/github.svg" alt="github" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/hanie-gharedaghi-8b78bbb8/"
+        target="blank"
+      >
+        <img src="/linkedin.svg" alt="linkedin" />
+      </a>
+      <a href="mailto:h7.gharedaghi@gmail.com" target="blank">
+        <img src="/mail.svg" alt="mail" />
+      </a>
+      <a
+        href="https://docs.google.com/document/d/1AcfM0PxyjHuvRBfpRKEW5LMbT2MLhmbfMds_wLdPxHc/edit?usp=sharing" target="blank">
+        <img src="/cv.svg" alt="cv" />
+      </a>
     </div>
   </section>
 </main>
